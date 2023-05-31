@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="kor">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Challenge</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+    <main>
+      <form action="" method="get">
+        <section>
+          <h2>How can we help you?</h2>
+          <ul>
+            <li>
+              <label for="username">Your name</label>
+              <input type="text" id="username" name="username" required />
+            </li>
+            <li>
+              <label for="email">Your E-Mail Address</label>
+              <input type="email" id="email" name="email" required />
+            </li>
+            <li>
+              <label for="phone">Your Phone Number</label>
+              <input type="tel" id="phone" name="phone" required minlength="5" />
+            </li>
+            <li>
+              <label for="message">Your Message</label>
+              <textarea name="message" id="message" rows="5" maxlength="1000"></textarea>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <label for="channel">How did you find us?</label>
+          <select name="channel" id="channel">
+            <option value="search">Web Search</option>
+            <option value="word-of-mounth">World of Month</option>
+            <option value="other">Other</option>
+          </select>
+        </section>
+        <section>
+          <h2>How shold we reply?</h2>
+          <ul>
+            <li class="inline-control">
+              <input type="radio" name="reply" id="reply-phone" value="phone" />
+              <label for="reply-phone">Call me</label>
+            </li>
+            <li class="inline-control">
+              <input type="radio" name="reply" id="reply-email" value="email" />
+              <label for="reply-email">Send me an email</label>
+            </li>
+            <li class="inline-control">
+              <input type="radio" name="reply" id="reply-none" value="none" />
+              <label for="reply-none">Don't reply</label>
+            </li>
+          </ul>
+        </section>
+        <section class="inline-control">
+          <input type="checkbox" name="accept-terms" id="accept-terms" required />
+          <label for="accept-terms">Accept Terms</label>
+        </section>
+        <section id="form-actions">
+          <button type="reset" class="btn-emply" id="clear">Clear</button>
+          <button type="submit" class="btn-filled" id="submit">Submit</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>

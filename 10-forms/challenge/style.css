@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(241, 214, 211);
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+}
+
+form {
+  width: 40rem;
+  padding: 0.5rem 1.5rem;
+  margin: auto;
+  background-color: rgb(251, 251, 251);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+section {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  color: rgb(55, 7, 1);
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+  padding: 0.5rem;
+  border: 1px solid rgb(142, 124, 124);
+  width: 100%;
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  background-color: rgb(251, 242, 240);
+}
+
+button {
+  font: inherit;
+  border: 1px solid rgb(55, 7, 1);
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#form-actions {
+  text-align: right;
+}
+
+.btn-filled {
+  background-color: rgb(99, 22, 11);
+  color: white;
+}
+
+.btn-filled:hover {
+  background-color: rgb(199, 82, 67);
+}
+
+.inline-control {
+  display: flex;
+}
+
+.inline-control label {
+  margin: 0 0 0 0.5;
+}
+
+.inline-control input {
+  width: auto;
+}
