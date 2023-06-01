@@ -17,3 +17,7 @@ html, css 황용
 - 08-responsive-web-design
 - 09-web-design-adv-css
 - 10-forms
+
+javascript 기초
+
+- 11-javascript-basics
