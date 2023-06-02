@@ -21,3 +21,7 @@ html, css 황용
 javascript 기초
 
 - 11-javascript-basics
+
+javascript 응용
+
+- 12-advanced-javascript-dom
