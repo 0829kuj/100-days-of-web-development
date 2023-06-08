@@ -37,15 +37,31 @@
 // 5) "인라인 스타일"을 변경하고 CSS 클래스를 추가하여 (4)를 모두 해결합니다
 // 참고: 먼저 styles.css 파일에 해당 클래스를 추가해야 합니다
 
-let removeBtn = document.querySelector('button');
+const removeBtn = document.querySelector('button');
 // console.log(removeBtn.textContent);
-let backgroundColorChangeBtn = document.getElementById('backgroundColorChangeBtn');
+const backgroundColorChangeBtn = document.getElementById('backgroundColorChangeBtn');
 // console.log(backgroundColorChangeBtn.textContent);
 
+// const firstParagraphElement = document.querySelector('section p:nth-child(4)');
+const firstParagraphElement = document.body.children[2].children[1];
+
+const tghirdParagraphElement = firstParagraphElement.nextElementSibling.nextElementSibling;
+
 function clickRemoveBtn() {
-  let removePteg = document.querySelector('section p:nth-child(4)');
-  removePteg.remove;
-  console.dir(removePteg.textContent);
+  tghirdParagraphElement.remove();
+  // console.dir(removePteg.textContent);
+}
+
+function changeBackgroundColor() {
+  // firstParagraphElement.style.backgroundColor == 'skyblue'
+  const elementClassName = firstParagraphElement.className;
+  console.log(firstParagraphElement.className);
+  if (elementClassName == 'blue-bg') {
+    firstParagraphElement.className = '';
+  } else {
+    firstParagraphElement.className = 'blue-bg';
+  }
 }
 
 removeBtn.addEventListener('click', clickRemoveBtn);
+backgroundColorChangeBtn.addEventListener('click', changeBackgroundColor);
