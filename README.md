@@ -22,6 +22,8 @@ javascript 기초
 
 - 11-javascript-basics
 
+### 6월 1~2주차
+
 javascript 응용
 
 - 12-advanced-javascript-dom

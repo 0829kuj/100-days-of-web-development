@@ -37,7 +37,7 @@ button:hover {
   margin: 1rem 0;
 }
 
-label, 
+label,
 input {
   display: block;
 }
@@ -85,3 +85,5 @@ a.highlight {
   font-size: 3rem;
   display: none;
 }
+
+/* Highlight links */
