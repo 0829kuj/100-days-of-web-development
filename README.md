@@ -27,3 +27,8 @@ javascript 기초
 javascript 응용
 
 - 12-advanced-javascript-dom
+- 13-practice-time-while-loop
+
+html, css, javascript 활용
+
+- 14-tic-tac-toe-project
