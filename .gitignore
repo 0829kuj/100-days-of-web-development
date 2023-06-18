@@ -3,3 +3,5 @@
 # 확장자가 txt인 파일은 깃으로 저장하지 않음
 *.txt
 
+# node.js의 node_modules 폴더는 저장하지않음
+node_modules/
