@@ -1,0 +1,16 @@
+[
+  {
+    "name": "테스트",
+    "address": "테스트거리 5, 테스트시",
+    "cuisine": "이탈리안",
+    "website": "http://mytest.com",
+    "description": "맛나요"
+  },
+  {
+    "name": "테스트2",
+    "address": "테스트2거리 5, 테스트시2",
+    "cuisine": "멕시칸",
+    "website": "http://mytest2.com",
+    "description": "가나다라"
+  }
+]
