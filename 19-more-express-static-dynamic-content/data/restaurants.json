@@ -1,5 +1,6 @@
 [
   {
+    "id": "r1",
     "name": "테스트",
     "address": "테스트거리 5, 테스트시",
     "cuisine": "이탈리안",
@@ -7,10 +8,19 @@
     "description": "맛나요"
   },
   {
+    "id": "r2",
     "name": "테스트2",
     "address": "테스트2거리 5, 테스트시2",
     "cuisine": "멕시칸",
     "website": "http://mytest2.com",
     "description": "가나다라"
+  },
+  {
+    "name": "새로운 레스토랑",
+    "address": "레스토랑 주소",
+    "cuisine": "독일식",
+    "website": "http://munich-awesome.com",
+    "description": "맛이 있습니다",
+    "id": "4bfe232e-da42-4c11-893f-e13ca99e531d"
   }
 ]

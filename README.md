@@ -42,3 +42,4 @@ html, css, javascript 활용예제
 node.js, express 기초
 
 - 17-nodejs-introduction
+- 19-more-express-static-dynamic-content
