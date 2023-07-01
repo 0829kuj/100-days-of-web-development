@@ -40,6 +40,8 @@ html, css, javascript 활용예제
 ### 6월 3~4주차
 
 node.js, express 기초
+javascript 응용
 
 - 17-nodejs-introduction
 - 19-more-express-static-dynamic-content
+- 21-exploring-more-adv-js
