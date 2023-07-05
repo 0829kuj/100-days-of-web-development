@@ -45,3 +45,7 @@ javascript 응용
 - 17-nodejs-introduction
 - 19-more-express-static-dynamic-content
 - 21-exploring-more-adv-js
+
+### 7월 1~2주차
+
+DB 기초
