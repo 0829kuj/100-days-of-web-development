@@ -48,4 +48,10 @@ javascript 응용
 
 ### 7월 1~2주차
 
-DB 기초
+DB 기초 (MySQL)
+
+### 7월 3~4주차
+
+node.js와 express로 mysql과 연동한 미니블로그 만들기
+
+- 24-using-mysql-in-nodejs
